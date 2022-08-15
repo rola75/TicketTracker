@@ -1,0 +1,32 @@
+.outerBox {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 2px black;
+  width: 150px;
+  height: 275px;
+
+  margin: 20px;
+  padding: 10px;
+}
+
+.outerBox__card {
+  height: 35%;
+  width: 100%;
+    
+  
+  &__name {
+      font-size: 20px;
+    
+    }
+
+  &__role {
+    font-style: italic;
+  
+  }
+}
+
+.outerBox__counter {
+  border: 1px solid black;
+  height: 58%;
+  width: 100%;
+}
